@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    margin: 0px;
+    font-family: fantasy;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6%;
+}
+.logo {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.menu {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+.menu ul {
+    background-color: black;
+    margin: 0px;
+    padding: 10px 0px 10px 30px ;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 1px;
+    margin: 1px;
+    border-right: 1px solid white;
+    letter-spacing: 2px;
+}
+
+.menu li a {
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: 1px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color:#f7f7f7;
+    color:black;
+    border-radius: 3px;
+}
+
+.footer {
+    background-color: white; 
+}
+
+.spotlight {
+    background-image:  url("../Images/City-Wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    padding: 20px 0;
+}
+
+.spotlight h1 {
+    background: rgba(255, 255, 255, 0.29);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.container-box {
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.col-1, .col-2, .col-3 {
+    float: left;
+    width: 30%;
+}
+
+.col-3 {
+    width: 10%;
+}
+
+.box-1 {
+    text-align: center;
+    background-color: grey;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-2 {
+    text-align: center;
+    background-color: gainsboro;
+    padding: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.copyright {
+    padding: 10px 0;
+    background-color: #333333;
+    color: white;
+
+}
+
+.logo {
+    position: relative;
+    position: right;
+}
+
+.R {
+    background-image: url(..//Images/asus.jpg);
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+}
+
+.R-t {
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.Spotlight-recomended {
+    background-image: url(..//Images/asus\ 2.jpg);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 150px;
+    padding: 3px;
+}
+
+.Spotlight-recomended h1 {
+    background-color: rgba(255, 255, 255, 0.425);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.R2 {
+    background-image: url(..//Images/realme.jpg);
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.R2-t {
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.T {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url(..//Images/technology2.jpg)   
+}
+
+.T-t {
+    margin-top: 0px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.spotlight-Technology {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 150px;
+    padding: 3px;
+    background-image: url(..//Images/technology.jpg);
+}
+
+.spotlight-Technology h1 {
+    background-color: rgba(255, 255, 255, 0.425);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.spotlight-gadged {
+    background-image: url(..//Images/gadged.jpg);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 150px;
+    padding: 3px;
+}
+
+.spotlight-gadged h1 {
+    background-color: rgba(255, 255, 255, 0.425);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    letter-spacing: 2px;    
+}
+
+.G {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+}
+
+.G-t {
+    margin-top: 0px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px; 
+}
